@@ -2,7 +2,7 @@
 FROM python:3.5
 
 # Set environment variables for Django
-ENV DJANGO_SETTINGS_MODULE=my_first_blog.settings
+ENV DJANGO_SETTINGS_MODULE=mysite.settings
 
 # Set the working directory to /app
 WORKDIR /app
